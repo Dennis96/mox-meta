@@ -1,0 +1,6 @@
+# Le impronte SHA-256 in `indice.json` sono calcolate sui byte del file.
+# Se Git convertisse gli a capo pubblicando da un altro computer, il file
+# servito da raw.githubusercontent non corrisponderebbe piu' alla sua impronta
+# e Mox lo rifiuterebbe, in silenzio e per sempre.
+*.json text eol=lf
+*.md    text eol=lf
