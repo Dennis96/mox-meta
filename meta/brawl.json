@@ -9,6 +9,8 @@
       "id": "brawl-elspeth-conigli",
       "nome": "Elspeth, Storm Slayer",
       "archetipo": "Un solo tipo di creatura",
+      "archetipo_id": "elspeth-conigli",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "W"
@@ -34,6 +36,8 @@
       "id": "brawl-tifa",
       "nome": "Tifa Lockhart",
       "archetipo": "Creature verdi che crescono",
+      "archetipo_id": "tifa",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "G"
@@ -103,6 +107,8 @@
       "id": "brawl-sephiroth",
       "nome": "Sephiroth, Fabled SOLDIER",
       "archetipo": "Creature che muoiono e prosciugano",
+      "archetipo_id": "sephiroth",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "B"
@@ -168,6 +174,8 @@
       "id": "brawl-ketramose",
       "nome": "Ketramose, the New Dawn",
       "archetipo": "Rimozioni e carte esiliate",
+      "archetipo_id": "ketramose",
+      "variante": null,
       "strategia": "control",
       "colori": [
         "W",
@@ -242,6 +250,8 @@
       "id": "brawl-eluge",
       "nome": "Eluge, the Shoreless Sea",
       "archetipo": "Contromagie e rimbalzi",
+      "archetipo_id": "eluge",
+      "variante": null,
       "strategia": "control",
       "colori": [
         "U"
@@ -306,6 +316,8 @@
       "id": "brawl-kona",
       "nome": "Kona, Rescue Beastie",
       "archetipo": "Accelerazione e bestioni",
+      "archetipo_id": "kona",
+      "variante": null,
       "strategia": "ramp",
       "colori": [
         "G"
@@ -371,6 +383,8 @@
       "id": "brawl-anim-pakal",
       "nome": "Anim Pakal, Thousandth Moon",
       "archetipo": "Pedine aggressive bianco-rosse",
+      "archetipo_id": "anim-pakal",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "W",
@@ -442,6 +456,8 @@
       "id": "brawl-anti-venom",
       "nome": "Anti-Venom, Horrifying Healer",
       "archetipo": "Guadagno di vita bianco",
+      "archetipo_id": "anti-venom",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "W"
@@ -505,6 +521,8 @@
       "id": "brawl-tinybones",
       "nome": "Tinybones, Bauble Burglar",
       "archetipo": "Scarto: gli togli le carte di mano",
+      "archetipo_id": "tinybones",
+      "variante": null,
       "strategia": "control",
       "colori": [
         "B"
@@ -570,6 +588,8 @@
       "id": "brawl-momo",
       "nome": "Momo, Friendly Flier",
       "archetipo": "Creature che volano",
+      "archetipo_id": "momo",
+      "variante": null,
       "strategia": "tempo",
       "colori": [
         "W"

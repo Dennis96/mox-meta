@@ -1,14 +1,16 @@
 {
   "formato": "Historic",
   "formato_client": "Historic",
-  "aggiornato": "2026-08-09",
-  "fonte_principale": "https://mtgaassistant.net/Meta/Traditional-Historic",
-  "nota": "Historic ha 238 set legali contro i 18 di Standard: chi gioca da anni ci trova spesso carte che possiede gia'. Il campione del meta pero' e' magro — tutti gli archetipi risultano al 7,14%, cioe' uno su quattordici — quindi la quota di meta di Historic dice molto meno di quella di Standard.",
+  "aggiornato": "2026-08-11",
+  "fonte_principale": "https://mtgaassistant.net/Meta/Traditional-Historic per il Bo3, https://mtgaassistant.net/Meta/Historic-BO1 per il Bo1",
+  "nota": "Historic ha 238 set legali contro i 18 di Standard: chi gioca da anni ci trova spesso carte che possiede gia'. Attenzione alla quota di meta, perche' le due sezioni della fonte non valgono uguale: nel Bo3 tutti gli archetipi risultano al 7,14%, cioe' uno su quattordici, e quel numero non dice niente; nel Bo1 le quote sono distinte fra loro e reggono meglio. Il «record_singolo» invece e' sempre il ruolino di un solo giocatore, in tutte e due le sezioni.",
   "mazzi": [
     {
       "id": "hist-mono-red",
       "nome": "Mono Red Aggro",
       "archetipo": "Aggro rosso",
+      "archetipo_id": "mono-red",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "R"
@@ -58,6 +60,8 @@
       "id": "hist-orzhov-vita",
       "nome": "Orzhov Lifegain",
       "archetipo": "Guadagno di vita",
+      "archetipo_id": "orzhov-vita",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "W",
@@ -99,6 +103,8 @@
       "id": "hist-golgari",
       "nome": "Golgari Midrange",
       "archetipo": "Midrange nero-verde",
+      "archetipo_id": "golgari",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "B",
@@ -157,6 +163,8 @@
       "id": "hist-rakdos",
       "nome": "Rakdos Aggro",
       "archetipo": "Aggro rosso-nero",
+      "archetipo_id": "rakdos",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "B",
@@ -213,6 +221,8 @@
       "id": "hist-dimir",
       "nome": "Dimir Controllo",
       "archetipo": "Controllo blu-nero",
+      "archetipo_id": "dimir",
+      "variante": null,
       "strategia": "control",
       "colori": [
         "U",
@@ -263,6 +273,220 @@
       "modalita": "Bo3",
       "winrate": null,
       "partite": null
+    },
+    {
+      "id": "hist-mono-red-bo1",
+      "nome": "Mono Red Aggro (Bo1)",
+      "archetipo": "Aggro rosso",
+      "archetipo_id": "mono-red",
+      "variante": null,
+      "strategia": "aggro",
+      "colori": [
+        "R"
+      ],
+      "facile": true,
+      "data": "2026-08-11",
+      "fonte": "https://mtgaassistant.net/Meta/Historic-BO1/Deck/mono-red-1420134",
+      "quota_meta": 0.0424,
+      "record_singolo": [
+        38,
+        24
+      ],
+      "perche": "Lo stesso rosso della lista Bo3, ma senza riserve: creature a un mana e danno diretto, e la partita finisce presto. Quasi tutte le carte sono comuni o non comuni.",
+      "lista": [
+        "2 Chain Lightning",
+        "4 Lightning Strike",
+        "4 Light Up the Stage",
+        "4 Play with Fire",
+        "4 Static Discharge",
+        "4 Kumano Faces Kakkazan // Etching of Kumano",
+        "4 Ranger's Firebrand",
+        "4 Monastery Swiftspear",
+        "3 Viashino Pyromancer",
+        "4 Voldaren Epicure",
+        "4 Amped Raptor",
+        "3 Chandra's Spitfire",
+        "18 Mountain"
+      ],
+      "sideboard": [],
+      "modalita": "Bo1",
+      "winrate": null,
+      "partite": null,
+      "vista_il": "2026-08-11"
+    },
+    {
+      "id": "hist-mono-black-bo1",
+      "nome": "Mono Black Midrange (Bo1)",
+      "archetipo": "Midrange nero",
+      "archetipo_id": "mono-black",
+      "variante": null,
+      "strategia": "midrange",
+      "colori": [
+        "B"
+      ],
+      "facile": false,
+      "data": "2026-08-11",
+      "fonte": "https://mtgaassistant.net/Meta/Historic-BO1/Deck/mono-black-1421842",
+      "quota_meta": 0.0339,
+      "record_singolo": [
+        37,
+        25
+      ],
+      "perche": "Ti toglie le carte di mano, uccide quello che resta e chiude con creature che prosciugano. Thoughtseize e Surgical Extraction sono rare: in wildcard non e' una lista leggera.",
+      "lista": [
+        "4 Deep-Cavern Bat",
+        "4 Unstoppable Slasher",
+        "4 Bloodletter of Aclazotz",
+        "2 Archfiend of the Dross",
+        "4 Surgical Extraction",
+        "2 Sheoldred's Edict",
+        "4 Unholy Annex // Ritual Chamber",
+        "4 Thoughtseize",
+        "2 Duress",
+        "4 Cut Down",
+        "2 Go for the Throat",
+        "4 Castle Locthwain",
+        "16 Swamp",
+        "2 Soulstone Sanctuary",
+        "1 Hive of the Eye Tyrant",
+        "1 Takenuma, Abandoned Mire"
+      ],
+      "sideboard": [],
+      "modalita": "Bo1",
+      "winrate": null,
+      "partite": null,
+      "vista_il": "2026-08-11"
+    },
+    {
+      "id": "hist-mono-white-vita-bo1",
+      "nome": "Mono White Lifegain (Bo1)",
+      "archetipo": "Guadagno di vita in bianco",
+      "archetipo_id": "mono-white-vita",
+      "variante": null,
+      "strategia": "midrange",
+      "colori": [
+        "W"
+      ],
+      "facile": false,
+      "data": "2026-08-11",
+      "fonte": "https://mtgaassistant.net/Meta/Historic-BO1/Deck/mono-white-1412190",
+      "quota_meta": 0.0254,
+      "record_singolo": [
+        22,
+        9
+      ],
+      "perche": "Ogni creatura che entra ti fa guadagnare vita, e Voice of the Blessed cresce a ogni punto guadagnato. Il piano e' semplice, ma monta Ajani e la versione ribilanciata di The One Ring: costa.",
+      "lista": [
+        "3 A-Guide of Souls",
+        "4 Speaker of the Heavens",
+        "2 Hinterland Sanctifier",
+        "4 Soul Warden",
+        "4 A-Ocelot Pride",
+        "4 Voice of the Blessed",
+        "3 Heliod, Sun-Crowned",
+        "3 Haliya, Guided by Light",
+        "2 Minwu, White Mage",
+        "3 Linden, the Steadfast Queen",
+        "2 Case of the Uneaten Feast",
+        "3 A-The One Ring",
+        "1 Fountain of Renewal",
+        "2 Ajani, Strength of the Pride",
+        "17 Plains",
+        "2 Nykthos, Shrine to Nyx",
+        "2 Castle Ardenvale"
+      ],
+      "sideboard": [],
+      "modalita": "Bo1",
+      "winrate": null,
+      "partite": null,
+      "vista_il": "2026-08-11"
+    },
+    {
+      "id": "hist-azorius-artefatti-bo1",
+      "nome": "Azorius Artefatti (Bo1)",
+      "archetipo": "Artefatti incantati bianco-blu",
+      "archetipo_id": "azorius-artefatti",
+      "variante": null,
+      "strategia": "aggro",
+      "colori": [
+        "W",
+        "U"
+      ],
+      "facile": true,
+      "data": "2026-08-11",
+      "fonte": "https://mtgaassistant.net/Meta/Historic-BO1/Deck/azorius-1418675",
+      "quota_meta": 0.0254,
+      "record_singolo": [
+        140,
+        46
+      ],
+      "perche": "Mette Ensoul Artifact o All That Glitters su un artefatto che costa zero, e attacca dal secondo turno. La maggior parte delle carte e' comune o non comune.",
+      "lista": [
+        "4 Ornithopter",
+        "4 Gingerbrute",
+        "4 Vault Skirge",
+        "4 Patchwork Automaton",
+        "2 Network Disruptor",
+        "2 Esper Sentinel",
+        "4 Portable Hole",
+        "4 Ensoul Artifact",
+        "4 All That Glitters",
+        "4 Michiko's Reign of Truth // Portrait of Michiko",
+        "2 Zoetic Glyph",
+        "1 Glass Casket",
+        "3 Get Lost",
+        "4 Darksteel Citadel",
+        "4 Razortide Bridge",
+        "7 Plains",
+        "5 Island"
+      ],
+      "sideboard": [],
+      "modalita": "Bo1",
+      "winrate": null,
+      "partite": null,
+      "vista_il": "2026-08-11"
+    },
+    {
+      "id": "hist-mono-green-elfi-bo1",
+      "nome": "Mono Green Elfi (Bo1)",
+      "archetipo": "Tribale elfi",
+      "archetipo_id": "mono-green-elfi",
+      "variante": null,
+      "strategia": "aggro",
+      "colori": [
+        "G"
+      ],
+      "facile": false,
+      "data": "2026-08-11",
+      "fonte": "https://mtgaassistant.net/Meta/Historic-BO1/Deck/mono-green-1416940",
+      "quota_meta": 0.0254,
+      "record_singolo": [
+        108,
+        47
+      ],
+      "perche": "Gli elfi si moltiplicano e producono mana fra loro, e Craterhoof Behemoth chiude in un attacco solo. Le carte che lo tengono in piedi — Allosaurus Shepherd, Cavern of Souls, Craterhoof — sono rare e mitiche.",
+      "lista": [
+        "4 Elvish Mystic",
+        "4 Llanowar Elves",
+        "4 Elvish Archdruid",
+        "4 Elvish Warmaster",
+        "2 Elvish Clancaller",
+        "1 Craterhoof Behemoth",
+        "4 Priest of Titania",
+        "2 Leaf-Crowned Visionary",
+        "2 Wirewood Symbiote",
+        "4 Allosaurus Shepherd",
+        "2 Smuggler's Surprise",
+        "3 Collected Company",
+        "19 Forest",
+        "1 Boseiju, Who Endures",
+        "4 Cavern of Souls"
+      ],
+      "sideboard": [],
+      "modalita": "Bo1",
+      "winrate": null,
+      "partite": null,
+      "vista_il": "2026-08-11"
     }
   ]
 }

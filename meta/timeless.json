@@ -9,6 +9,8 @@
       "id": "tml-rakdos-lurrus",
       "nome": "Rakdos Aggro (Lurrus)",
       "archetipo": "Aggro rosso-nero",
+      "archetipo_id": "rakdos-lurrus",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "B",
@@ -55,6 +57,8 @@
       "id": "tml-mono-black",
       "nome": "Mono Black Midrange",
       "archetipo": "Midrange nero",
+      "archetipo_id": "mono-black",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "B"
@@ -91,6 +95,8 @@
       "id": "tml-dimir-lurrus",
       "nome": "Dimir Tempo (Lurrus)",
       "archetipo": "Tempo blu-nero",
+      "archetipo_id": "dimir-lurrus",
+      "variante": null,
       "strategia": "tempo",
       "colori": [
         "U",
@@ -143,6 +149,8 @@
       "id": "tml-abzan-terre",
       "nome": "Abzan Lands",
       "archetipo": "Terre e The One Ring",
+      "archetipo_id": "abzan-terre",
+      "variante": null,
       "strategia": "ramp",
       "colori": [
         "B",
@@ -198,6 +206,8 @@
       "id": "tml-mardu-lurrus",
       "nome": "Mardu Energia (Lurrus)",
       "archetipo": "Aggro a tre colori",
+      "archetipo_id": "mardu-lurrus",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "W",
@@ -250,6 +260,8 @@
       "id": "tml-quattro-colori-breach",
       "nome": "Four Color Underworld Breach",
       "archetipo": "Combo",
+      "archetipo_id": "quattro-colori-breach",
+      "variante": null,
       "strategia": "combo",
       "colori": [
         "U",
@@ -306,6 +318,8 @@
       "id": "tml-boros-gatti",
       "nome": "Boros Cats",
       "archetipo": "Creature bianco-rosse",
+      "archetipo_id": "boros-gatti",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "W",
@@ -350,6 +364,8 @@
       "id": "tml-simic-tritoni",
       "nome": "Simic Merfolk",
       "archetipo": "Tribale tritoni",
+      "archetipo_id": "simic-tritoni",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "U",
@@ -394,6 +410,8 @@
       "id": "tml-izzet-affinita",
       "nome": "Izzet Affinity",
       "archetipo": "Artefatti",
+      "archetipo_id": "izzet-affinita",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "U",
@@ -439,6 +457,8 @@
       "id": "tml-eldrazi",
       "nome": "Eldrazi Incolori",
       "archetipo": "Creature enormi",
+      "archetipo_id": "eldrazi",
+      "variante": null,
       "strategia": "ramp",
       "colori": [],
       "facile": false,

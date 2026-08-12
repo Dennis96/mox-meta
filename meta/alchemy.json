@@ -9,6 +9,8 @@
       "id": "alc-orzhov-vita",
       "nome": "Orzhov Lifegain",
       "archetipo": "Guadagno di vita",
+      "archetipo_id": "orzhov-vita",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "W",
@@ -59,6 +61,8 @@
       "id": "alc-mono-white-vita",
       "nome": "Mono White Lifegain",
       "archetipo": "Guadagno di vita in un colore",
+      "archetipo_id": "mono-white-vita",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "W"
@@ -95,6 +99,8 @@
       "id": "alc-mono-red",
       "nome": "Mono Red Aggro",
       "archetipo": "Aggro rosso",
+      "archetipo_id": "mono-red",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "R"
@@ -129,6 +135,8 @@
       "id": "alc-mono-green",
       "nome": "Mono Green Stompy",
       "archetipo": "Creature grosse in fretta",
+      "archetipo_id": "mono-green",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "G"
@@ -165,6 +173,8 @@
       "id": "alc-mono-black",
       "nome": "Mono Black Midrange",
       "archetipo": "Midrange nero",
+      "archetipo_id": "mono-black",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "B"
@@ -201,6 +211,8 @@
       "id": "alc-izzet-prodezze",
       "nome": "Izzet Prowess",
       "archetipo": "Tempo blu-rosso",
+      "archetipo_id": "izzet-prodezze",
+      "variante": null,
       "strategia": "tempo",
       "colori": [
         "U",
@@ -247,6 +259,8 @@
       "id": "alc-boros-odio",
       "nome": "Boros Artefatti e Disturbo",
       "archetipo": "Controllo bianco-rosso",
+      "archetipo_id": "boros-odio",
+      "variante": null,
       "strategia": "control",
       "colori": [
         "W",
@@ -286,6 +300,8 @@
       "id": "alc-cinque-colori-reanimator",
       "nome": "Five Color Reanimator",
       "archetipo": "Cimitero e creature grosse",
+      "archetipo_id": "cinque-colori-reanimator",
+      "variante": null,
       "strategia": "reanimator",
       "colori": [
         "U",
@@ -326,6 +342,8 @@
       "id": "alc-cinque-colori-evocazioni",
       "nome": "Five Color Summons",
       "archetipo": "Evocazioni e carte grosse",
+      "archetipo_id": "cinque-colori-evocazioni",
+      "variante": null,
       "strategia": "ramp",
       "colori": [
         "W",

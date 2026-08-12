@@ -2,45 +2,14 @@
   "formato": "Standard",
   "aggiornato": "2026-08-10",
   "fonte_principale": "https://mtgaassistant.net/Meta/Standard-BO1/",
-  "nota": "Liste da mtgaassistant.net, scelto dopo aver provato le alternative il 09/08/2026: Untapped tiene le statistiche dietro l'abbonamento e genera la tier list in JavaScript; aetherhub e mtgdecks rispondono 403; mtgazone si legge ma la sua tier list datata 08/08/2026 conteneva 22 carte gia' ruotate su 7 mazzi. Le liste Bo1 non hanno sideboard perche' in Bo1 non esiste; quelle marcate Bo3 vengono dalla sezione Traditional Standard e ce l'hanno completo da 15 carte. Ogni lista viene ricontrollata contro i set legali del client a ogni avvio del consigliere. \n\nRicontrollate il 10/08/2026, e le condizioni non sono cambiate. mtgdecks.net/Standard risponde ancora 403 alle richieste automatiche. mtgaassistant non pubblica nessuna tier: solo la diffusione. mtgazone pubblica tier esplicite, in due pagine distinte per Bo1 e Bo3, ed e' da li' che vengono i campi «tier»; le sue LISTE restano pero' invecchiate — provate contro il client, «Boros Auras» aveva 2 carte fuori Standard e «Mono-Black Demons» ne aveva 6, quindi da mtgazone si prende la lettera della tier e non le carte. \n\nIl campo «tier» c'e' solo dove una fonte l'ha assegnata allo stesso archetipo, nello stesso formato e nella stessa modalita', e porta sempre «tier_fonte» e «tier_data» accanto. Dove manca non si scrive niente e il consigliere mostra «n.d.»: una tier ricavata da una soglia di diffusione o di percentuale di vittorie sarebbe un numero inventato con l'aria di un dato. Oggi in Standard sono documentate 2 liste su 27. \n\nIl campo «strategia» e' invece una nostra classificazione — aggro, midrange, control, tempo, combo, ramp, reanimator — e serve al filtro; «archetipo» resta la descrizione per l'utente.",
+  "nota": "Liste da mtgaassistant.net, scelto dopo aver provato le alternative il 09/08/2026. Le liste Bo1 non hanno sideboard; quelle Bo3 vengono dalla sezione Traditional Standard e hanno 15 carte di riserva. Ogni lista viene ricontrollata contro le regole del client Arena. mtgaassistant pubblica la diffusione ma non una tier; le fonti alternative provate non consentono la ripubblicazione oppure hanno mostrato liste ruotate. Per decisione dell'11/08/2026 la tier resta quindi n.d. finche' non esiste una fonte affidabile e pubblicabile: non viene ricavata dalla diffusione e non viene inventata. Il campo «strategia» resta una classificazione interna dichiarata; «archetipo» e' la descrizione leggibile.",
   "mazzi": [
-    {
-      "id": "mono-white-auras",
-      "nome": "Mono White Auras",
-      "archetipo": "Aure aggressive",
-      "strategia": "aggro",
-      "colori": [
-        "W"
-      ],
-      "facile": true,
-      "data": "2026-08-05",
-      "fonte": "https://mtga.untapped.gg/constructed/standard",
-      "winrate": 0.577,
-      "partite": 250000,
-      "quota_meta": null,
-      "record_singolo": null,
-      "perche": "Vince mettendo aure su una creatura sola e attaccando. Poche decisioni, poche carte care: e' fra i mazzi piu' economici del formato.",
-      "lista": [
-        "4 Optimistic Scavenger",
-        "4 Veteran Survivor",
-        "4 Spellbook Vendor",
-        "4 Skyward Spider",
-        "4 Ethereal Armor",
-        "4 Seam Rip",
-        "4 Shardmage's Rescue",
-        "4 Feather of Flight",
-        "4 Origin of Spider-Man",
-        "4 Sheltered by Ghosts",
-        "1 Abandoned Air Temple",
-        "19 Plains"
-      ],
-      "sideboard": [],
-      "modalita": "Bo1"
-    },
     {
       "id": "mono-white-ladder",
       "nome": "Mono White (versione da ladder)",
       "archetipo": "Aure aggressive",
+      "archetipo_id": "aure-mono-bianco",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "W"
@@ -77,6 +46,8 @@
       "id": "rakdos-aggro",
       "nome": "Rakdos Aggro",
       "archetipo": "Aggro rosso-nero",
+      "archetipo_id": "rakdos-aggro",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "B",
@@ -114,11 +85,9 @@
       "id": "mono-red",
       "nome": "Mono Red",
       "archetipo": "Aggro rosso",
+      "archetipo_id": "mono-red",
+      "variante": null,
       "strategia": "aggro",
-      "tier": "Tier 1",
-      "tier_fonte": "https://mtgazone.com/standard-bo1-metagame-tier-list/",
-      "tier_data": "2026-08-10",
-      "tier_archetipo": "Mono-Red Aggro",
       "colori": [
         "R"
       ],
@@ -159,6 +128,8 @@
       "id": "mono-white-lifegain-bo3",
       "nome": "Mono White Lifegain (Bo3)",
       "archetipo": "Aggro bianco con guadagno di vita",
+      "archetipo_id": "mono-white-lifegain",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "W"
@@ -205,6 +176,8 @@
       "id": "dimir-bo3",
       "nome": "Dimir Controllo (Bo3)",
       "archetipo": "Controllo blu-nero",
+      "archetipo_id": "dimir",
+      "variante": null,
       "strategia": "control",
       "colori": [
         "U",
@@ -261,6 +234,8 @@
       "id": "azorius-bo3",
       "nome": "Azorius Controllo (Bo3)",
       "archetipo": "Controllo bianco-blu",
+      "archetipo_id": "azorius",
+      "variante": null,
       "strategia": "control",
       "colori": [
         "W",
@@ -321,6 +296,8 @@
       "id": "naya-bo3",
       "nome": "Naya Aggro (Bo3)",
       "archetipo": "Aggro a tre colori",
+      "archetipo_id": "naya",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "R",
@@ -377,6 +354,8 @@
       "id": "mono-black-bo3",
       "nome": "Mono Black (Bo3)",
       "archetipo": "Midrange nero",
+      "archetipo_id": "mono-black",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "B"
@@ -420,7 +399,9 @@
     {
       "id": "boros-bo3",
       "nome": "Boros Aggro (Bo3)",
-      "archetipo": "Aggro bianco-rosso",
+      "archetipo": "Prodezze bianco-rosse",
+      "archetipo_id": "boros-prodezze",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "R",
@@ -471,11 +452,9 @@
       "id": "golgari-bo3",
       "nome": "Golgari Midrange (Bo3)",
       "archetipo": "Midrange nero-verde",
+      "archetipo_id": "golgari",
+      "variante": null,
       "strategia": "midrange",
-      "tier": "Tier 1",
-      "tier_fonte": "https://mtgazone.com/standard-bo3-metagame-tier-list/",
-      "tier_data": "2026-08-10",
-      "tier_archetipo": "Golgari Midrange",
       "colori": [
         "B",
         "G"
@@ -526,7 +505,9 @@
     {
       "id": "orzhov-bo3",
       "nome": "Orzhov Aggro (Bo3)",
-      "archetipo": "Aggro bianco-nero",
+      "archetipo": "Aure bianco-nero",
+      "archetipo_id": "aure-orzhov",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "W",
@@ -574,7 +555,9 @@
     {
       "id": "boros-voce-bo3",
       "nome": "Boros Aggro a schiera (Bo3)",
-      "archetipo": "Aggro bianco-rosso",
+      "archetipo": "Aggro bianco-rosso a schiera",
+      "archetipo_id": "boros-schiera",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "R",
@@ -623,6 +606,8 @@
       "id": "orzhov-aure-bo1",
       "nome": "Orzhov Aure",
       "archetipo": "Aure bianco-nero",
+      "archetipo_id": "aure-orzhov",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "W",
@@ -662,6 +647,8 @@
       "id": "mono-blue-bo1",
       "nome": "Mono Blue Tempo",
       "archetipo": "Tempo blu",
+      "archetipo_id": "mono-blue",
+      "variante": null,
       "strategia": "tempo",
       "colori": [
         "U"
@@ -700,6 +687,8 @@
       "id": "mono-black-ladri-bo1",
       "nome": "Mono Black Ladri",
       "archetipo": "Aggro nero",
+      "archetipo_id": "mono-black-ladri",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "B"
@@ -740,7 +729,9 @@
     {
       "id": "boros-aggro-bo1",
       "nome": "Boros Aggro",
-      "archetipo": "Aggro bianco-rosso",
+      "archetipo": "Aggro bianco-rosso a schiera",
+      "archetipo_id": "boros-schiera",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "W",

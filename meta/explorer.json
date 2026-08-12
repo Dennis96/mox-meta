@@ -9,6 +9,8 @@
       "id": "exp-azorius-yorion",
       "nome": "Azorius Yorion Control",
       "archetipo": "Controllo bianco-blu",
+      "archetipo_id": "azorius-yorion",
+      "variante": null,
       "strategia": "control",
       "colori": [
         "W",
@@ -72,6 +74,8 @@
       "id": "exp-azorius-tempo",
       "nome": "Azorius Tempo",
       "archetipo": "Tempo bianco-blu",
+      "archetipo_id": "azorius-tempo",
+      "variante": null,
       "strategia": "tempo",
       "colori": [
         "W",
@@ -127,6 +131,8 @@
       "id": "exp-izzet-phoenix",
       "nome": "Izzet Phoenix",
       "archetipo": "Cimitero blu-rosso",
+      "archetipo_id": "izzet-phoenix",
+      "variante": null,
       "strategia": "reanimator",
       "colori": [
         "U",
@@ -171,6 +177,8 @@
       "id": "exp-golgari",
       "nome": "Golgari Midrange",
       "archetipo": "Midrange nero-verde",
+      "archetipo_id": "golgari",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "B",
@@ -225,6 +233,8 @@
       "id": "exp-mono-white",
       "nome": "Mono White Aggro",
       "archetipo": "Aggro bianco",
+      "archetipo_id": "mono-white",
+      "variante": null,
       "strategia": "aggro",
       "colori": [
         "W"
@@ -259,6 +269,8 @@
       "id": "exp-mono-blue-spiriti",
       "nome": "Mono Blue Spirits",
       "archetipo": "Spiriti volanti",
+      "archetipo_id": "mono-blue-spiriti",
+      "variante": null,
       "strategia": "tempo",
       "colori": [
         "U"
@@ -292,6 +304,8 @@
       "id": "exp-boros-terre",
       "nome": "Boros Land Destruction",
       "archetipo": "Disturbo bianco-rosso",
+      "archetipo_id": "boros-terre",
+      "variante": null,
       "strategia": "tempo",
       "colori": [
         "W",
@@ -333,6 +347,8 @@
       "id": "exp-mono-green",
       "nome": "Mono Green Ramp",
       "archetipo": "Accelerazione verde",
+      "archetipo_id": "mono-green",
+      "variante": null,
       "strategia": "ramp",
       "colori": [
         "B",
@@ -384,6 +400,8 @@
       "id": "exp-gruul-leggende",
       "nome": "Gruul Legends",
       "archetipo": "Leggendarie rosso-verdi",
+      "archetipo_id": "gruul-leggende",
+      "variante": null,
       "strategia": "midrange",
       "colori": [
         "R",
@@ -436,6 +454,8 @@
       "id": "exp-jeskai",
       "nome": "Jeskai Control",
       "archetipo": "Controllo a tre colori",
+      "archetipo_id": "jeskai",
+      "variante": null,
       "strategia": "control",
       "colori": [
         "W",
