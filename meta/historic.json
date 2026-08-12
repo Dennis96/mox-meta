@@ -1,7 +1,7 @@
 {
   "formato": "Historic",
   "formato_client": "Historic",
-  "aggiornato": "2026-08-11",
+  "aggiornato": "2026-08-12",
   "fonte_principale": "https://mtgaassistant.net/Meta/Traditional-Historic per il Bo3, https://mtgaassistant.net/Meta/Historic-BO1 per il Bo1",
   "nota": "Historic ha 238 set legali contro i 18 di Standard: chi gioca da anni ci trova spesso carte che possiede gia'. Attenzione alla quota di meta, perche' le due sezioni della fonte non valgono uguale: nel Bo3 tutti gli archetipi risultano al 7,14%, cioe' uno su quattordici, e quel numero non dice niente; nel Bo1 le quote sono distinte fra loro e reggono meglio. Il «record_singolo» invece e' sempre il ruolino di un solo giocatore, in tutte e due le sezioni.",
   "mazzi": [

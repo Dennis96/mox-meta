@@ -37,18 +37,18 @@
     {
       "nome": "historic.json",
       "formato": "Historic",
-      "aggiornato": "2026-08-11",
+      "aggiornato": "2026-08-12",
       "mazzi": 10,
       "byte": 15202,
-      "sha256": "851aba6a9621b73c411233e77bd575629633837cd89adf9727622abf28971e73"
+      "sha256": "89fbf0d74ca83bda500559564a17a51e043a8ccd93dd584913f55f17881f8b3e"
     },
     {
       "nome": "standard.json",
       "formato": "Standard",
-      "aggiornato": "2026-08-10",
+      "aggiornato": "2026-08-12",
       "mazzi": 16,
       "byte": 22610,
-      "sha256": "d54a2cd0ebe4d84caea2150a0db105f0169dd01f096f73d8a918c022e410f5bc"
+      "sha256": "891eaf1e9b32be0e4ec848884d27ceb90d4e2b2e649b462118cae70466995f38"
     },
     {
       "nome": "timeless.json",
