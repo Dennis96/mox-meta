@@ -1,7 +1,7 @@
 {
   "formato": "Historic Brawl",
   "formato_client": "HistoricBrawl",
-  "aggiornato": "2026-08-15",
+  "aggiornato": "2026-08-16",
   "fonte_principale": "https://mtgaassistant.net/Meta/Historic-Brawl",
   "nota": "Audit 15/08/2026: le 10 liste esistenti (99 carte piu' comandante) sono state ricontrollate contro la banned list Brawl ufficiale vigente. Nessuna nuova lista viene aggiunta in questo passaggio: prima va risolta in Mox la distinzione fra il vecchio identificatore HistoricBrawl e il Brawl pubblico attuale, cosi' da non associare una lista valida al formato client sbagliato. Priorita' assoluta alla giocabilita': se il mapping non e' certo, il deck non viene pubblicato.",
   "mazzi": [

@@ -1,9 +1,9 @@
 {
   "formato": "Historic",
   "formato_client": "Historic",
-  "aggiornato": "2026-08-15",
+  "aggiornato": "2026-08-16",
   "fonte_principale": "https://mtgaassistant.net/Meta/Traditional-Historic per il Bo3, https://mtgaassistant.net/Meta/Historic-BO1 per il Bo1",
-  "nota": "Aggiornamento del 15/08/2026. Historic non ha ricevuto cambiamenti di ban il 10/08/2026. Sono state aggiunte tre varianti Mox curate: Reanimator, Azorius High Noon e Izzet Wizards, tutte ricontrollate contro l'elenco Historic ufficiale. In particolare il Reanimator usa Necromancy e Life // Death e NON usa Reanimate, che e' bandita in Historic. Wizards cita Reanimator, High Noon Control e Izzet Wizards tra le strategie presenti nel metagame Historic attuale.",
+  "nota": "Aggiornamento del 15/08/2026. Historic non ha ricevuto cambiamenti di ban il 10/08/2026. Sono state aggiunte tre varianti Mox curate: Reanimator, Azorius High Noon e Izzet Wizards, tutte ricontrollate contro l'elenco Historic ufficiale. In particolare il Reanimator usa Necromancy e Life // Death e NON usa Reanimate, che e' bandita in Historic. Wizards cita Reanimator, High Noon Control e Izzet Wizards tra le strategie presenti nel metagame Historic attuale. Tier list: Mox importa Tier 1/2/3 solo quando l'archetipo della lista corrisponde in modo chiaro a una voce della tier list MTGDecks indicata; le liste senza corrispondenza restano senza tier esterna e il Consigliere le mostra come Mox Tier 4 (non classificato), senza inventare valutazioni.",
   "mazzi": [
     {
       "id": "hist-mono-red",
@@ -54,7 +54,11 @@
       ],
       "modalita": "Bo3",
       "winrate": null,
-      "partite": null
+      "partite": null,
+      "tier": "Tier 3",
+      "tier_fonte": "https://mtgdecks.net/Historic",
+      "tier_data": "2026-07-25",
+      "tier_archetipo": "Red Deck Wins"
     },
     {
       "id": "hist-orzhov-vita",
@@ -97,7 +101,11 @@
       "sideboard": [],
       "modalita": "Bo3",
       "winrate": null,
-      "partite": null
+      "partite": null,
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Historic",
+      "tier_data": "2026-07-25",
+      "tier_archetipo": "Orzhov Lifegain"
     },
     {
       "id": "hist-golgari",
@@ -272,7 +280,11 @@
       ],
       "modalita": "Bo3",
       "winrate": null,
-      "partite": null
+      "partite": null,
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Historic",
+      "tier_data": "2026-07-25",
+      "tier_archetipo": "Dimir Control"
     },
     {
       "id": "hist-mono-red-bo1",
@@ -312,7 +324,11 @@
       "modalita": "Bo1",
       "winrate": null,
       "partite": null,
-      "vista_il": "2026-08-11"
+      "vista_il": "2026-08-11",
+      "tier": "Tier 3",
+      "tier_fonte": "https://mtgdecks.net/Historic",
+      "tier_data": "2026-07-25",
+      "tier_archetipo": "Red Deck Wins"
     },
     {
       "id": "hist-mono-black-bo1",
@@ -444,7 +460,11 @@
       "modalita": "Bo1",
       "winrate": null,
       "partite": null,
-      "vista_il": "2026-08-11"
+      "vista_il": "2026-08-11",
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Historic",
+      "tier_data": "2026-07-25",
+      "tier_archetipo": "Azorius Artifacts"
     },
     {
       "id": "hist-mono-green-elfi-bo1",
@@ -486,7 +506,11 @@
       "modalita": "Bo1",
       "winrate": null,
       "partite": null,
-      "vista_il": "2026-08-11"
+      "vista_il": "2026-08-11",
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Historic",
+      "tier_data": "2026-07-25",
+      "tier_archetipo": "Elves"
     },
     {
       "id": "hist-reanimator-bo1",
@@ -502,12 +526,12 @@
       ],
       "facile": false,
       "data": "2026-08-15",
-      "fonte": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
+      "fonte": "costruita per Mox: l'archetipo e' citato nell'annuncio ban Wizards del 10/08/2026, la lista delle sessanta carte no",
       "winrate": null,
       "partite": null,
       "quota_meta": null,
       "record_singolo": null,
-      "perche": "Wizards segnala Reanimator in crescita nell'Historic attuale. Variante Mox basata su Necromancy e Life // Death, senza Reanimate che e' bandita in Historic.",
+      "perche": "Wizards segnala Reanimator in crescita nell'Historic attuale. Variante Mox basata su Necromancy e Life // Death, senza Reanimate che e' bandita in Historic. Archetipo citato in https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
       "lista": [
         "4 Atraxa, Grand Unifier",
         "3 Life // Death",
@@ -547,12 +571,12 @@
       ],
       "facile": false,
       "data": "2026-08-15",
-      "fonte": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
+      "fonte": "costruita per Mox: l'archetipo e' citato nell'annuncio ban Wizards del 10/08/2026, la lista delle sessanta carte no",
       "winrate": null,
       "partite": null,
       "quota_meta": null,
       "record_singolo": null,
-      "perche": "Controllo Azorius costruito per rallentare i mazzi spell-based; Wizards cita High Noon Control tra le strategie competitive dell'Historic attuale.",
+      "perche": "Controllo Azorius costruito per rallentare i mazzi spell-based; Wizards cita High Noon Control tra le strategie competitive dell'Historic attuale. Archetipo citato in https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
       "lista": [
         "2 Teferi's Protection",
         "3 Wrath of God",
@@ -592,12 +616,12 @@
       ],
       "facile": false,
       "data": "2026-08-15",
-      "fonte": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
+      "fonte": "costruita per Mox: l'archetipo e' citato nell'annuncio ban Wizards del 10/08/2026, la lista delle sessanta carte no",
       "winrate": null,
       "partite": null,
       "quota_meta": null,
       "record_singolo": null,
-      "perche": "Tempo/prowess Izzet con sinergie Wizard. Wizards indica Izzet Wizards fra i mazzi spell-based che compongono una parte importante del meta Historic.",
+      "perche": "Tempo/prowess Izzet con sinergie Wizard. Wizards indica Izzet Wizards fra i mazzi spell-based che compongono una parte importante del meta Historic. Archetipo citato in https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
       "lista": [
         "4 A-Symmetry Sage",
         "4 Soul-Scar Mage",
@@ -621,7 +645,11 @@
         "1 Mountain"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Historic",
+      "tier_data": "2026-07-25",
+      "tier_archetipo": "Izzet Wizards"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "formato": "Standard",
-  "aggiornato": "2026-08-15",
+  "aggiornato": "2026-08-16",
   "fonte_principale": "https://aetherhub.com/MTGA-Decks/Standard-BO1/",
-  "nota": "Aggiornamento del 15/08/2026 con priorita' a Standard BO1. Le 16 liste gia' presenti nel repository sono state mantenute dopo un controllo contro la banned list vigente e sono state aggiunte 10 liste BO1 tracciabili, per un totale di 26 mazzi (17 BO1 e 9 BO3). Le liste nuove coprono strategie e combinazioni di colori diverse. Badgermole Cub, Gran-Gran, Stormchaser's Talent e le altre carte bandite sono escluse; Leyline of Resonance e' esclusa dai BO1. Nel 2026 non avviene una nuova rotazione Standard; per la legalita' dei set si usa l'elenco Standard ufficiale corrente. Nessun dato di tier o winrate viene inventato.",
+  "nota": "Aggiornamento del 15/08/2026 con priorita' a Standard BO1. Le 16 liste gia' presenti nel repository sono state mantenute dopo un controllo contro la banned list vigente e sono state aggiunte 10 liste BO1 tracciabili, per un totale di 26 mazzi (17 BO1 e 9 BO3). Le liste nuove coprono strategie e combinazioni di colori diverse. Badgermole Cub, Gran-Gran, Stormchaser's Talent e le altre carte bandite sono escluse; Leyline of Resonance e' esclusa dai BO1. Nel 2026 non avviene una nuova rotazione Standard; per la legalita' dei set si usa l'elenco Standard ufficiale corrente. Nessun dato di tier o winrate viene inventato. Tier list: Mox importa Tier 1/2/3 solo quando l'archetipo della lista corrisponde in modo chiaro a una voce della tier list MTGDecks indicata; le liste senza corrispondenza restano senza tier esterna e il Consigliere le mostra come Mox Tier 4 (non classificato), senza inventare valutazioni.",
   "mazzi": [
     {
       "id": "mono-white-ladder",
@@ -40,7 +40,11 @@
         "20 Plains"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Mono White Auras"
     },
     {
       "id": "rakdos-aggro",
@@ -79,7 +83,31 @@
         "16 Mountain"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Hired Claw",
+          "Emberheart Challenger",
+          "Slickshot Show-Off"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Burnout Bashtronaut"
+            ],
+            "preferred": [
+              "Fanatical Firebrand",
+              "Ghitu Lavarunner",
+              "Frenzied Goblin"
+            ],
+            "max_replace": 4
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      }
     },
     {
       "id": "mono-red",
@@ -122,7 +150,36 @@
         "3 Rockface Village"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Hired Claw",
+          "Emberheart Challenger",
+          "Burst Lightning",
+          "Lightning Strike"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Burnout Bashtronaut"
+            ],
+            "preferred": [
+              "Fanatical Firebrand",
+              "Ghitu Lavarunner",
+              "Frenzied Goblin"
+            ],
+            "max_replace": 4
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      },
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Mono-Red Aggro"
     },
     {
       "id": "mono-white-lifegain-bo3",
@@ -170,7 +227,11 @@
         "1 Get Lost",
         "2 Erode",
         "1 Break the Spell"
-      ]
+      ],
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Mono White Lifegain"
     },
     {
       "id": "dimir-bo3",
@@ -290,7 +351,11 @@
         "1 Day of Judgment",
         "2 Voice of Victory",
         "1 Beza, the Bounding Spring"
-      ]
+      ],
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Azorius Control"
     },
     {
       "id": "naya-bo3",
@@ -394,7 +459,11 @@
         "4 Leyline of the Void",
         "3 Klaw, Sonic Subjugator",
         "3 Massacre Wurm"
-      ]
+      ],
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Mono Black Midrange"
     },
     {
       "id": "boros-bo3",
@@ -500,7 +569,11 @@
         "2 Maelstrom Pulse",
         "2 Cruelclaw's Heist",
         "3 Surrak, Elusive Hunter"
-      ]
+      ],
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Golgari Midrange"
     },
     {
       "id": "orzhov-bo3",
@@ -807,7 +880,11 @@
         "20 Plains"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Mono White Lifegain"
     },
     {
       "id": "azorius-flash-bo1",
@@ -857,7 +934,11 @@
         "3 Multiversal Passage"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Azorius Flash"
     },
     {
       "id": "orzhov-skeletons-bo1",
@@ -905,7 +986,30 @@
         "4 Starting Town"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Optimistic Scavenger",
+          "Case of the Stashed Skeleton",
+          "Corpses of the Lost"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Forsaken Miner"
+            ],
+            "preferred": [
+              "Project Deathlok Soldier",
+              "Infestation Sage"
+            ],
+            "max_replace": 2
+          }
+        ],
+        "max_changes": 2,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      }
     },
     {
       "id": "izzet-robots-bo1",
@@ -994,7 +1098,11 @@
         "1 Adagia, Windswept Bastion"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Jeskai Artifacts"
     },
     {
       "id": "mono-green-landfall-bo1",
@@ -1072,7 +1180,11 @@
         "1 Multiversal Passage"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Izzet Spellementals"
     },
     {
       "id": "four-color-reanimator-bo1",
@@ -1168,7 +1280,31 @@
         "1 Soulstone Sanctuary"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Bandit's Talent",
+          "Unholy Annex // Ritual Chamber",
+          "Deceit"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Shoot the Sheriff"
+            ],
+            "preferred": [
+              "Hero's Downfall",
+              "Bilbo's Deadly Slice",
+              "Murder"
+            ],
+            "max_replace": 2
+          }
+        ],
+        "max_changes": 2,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      }
     },
     {
       "id": "five-color-dragonstorm-bo1",

@@ -1,62 +1,62 @@
 {
   "versione": 1,
-  "generato": "2026-08-15",
+  "generato": "2026-08-16",
   "file": [
     {
       "nome": "alchemy.json",
       "formato": "Alchemy",
-      "aggiornato": "2026-08-15",
+      "aggiornato": "2026-08-16",
       "mazzi": 10,
-      "byte": 14610,
-      "sha256": "3ac93efeca13e2cd500fbe82663a6a08b7ba5b8364c8ef1595ee1ad6b3e2786f"
+      "byte": 15188,
+      "sha256": "5274b56a2f2a148ca6e973326245e844d4822c9f6b9e9752234de422aef20daf"
     },
     {
       "nome": "brawl.json",
       "formato": "Brawl",
-      "aggiornato": "2026-08-15",
+      "aggiornato": "2026-08-16",
       "mazzi": 10,
       "byte": 21237,
-      "sha256": "7c38a9a611547f11b4194a68ee71c1a19b7c84132c3d8226d7b81040975d6e08"
+      "sha256": "881b4b3b73828281716f512073a785b8ff2f0332b5f3afdb70307c451142d3ca"
     },
     {
       "nome": "explorer.json",
-      "formato": "Explorer",
-      "aggiornato": "2026-08-15",
+      "formato": "Pioneer",
+      "aggiornato": "2026-08-16",
       "mazzi": 10,
-      "byte": 15720,
-      "sha256": "84ee4467dd0b019f8eba3ed4552aa2800bbd74df8664ca3fadf30c90a57ec023"
+      "byte": 16579,
+      "sha256": "2138786602903d50d598082a9a765792525c58cf25748c9b8d39276221c56b03"
     },
     {
       "nome": "historic-brawl.json",
       "formato": "Historic Brawl",
-      "aggiornato": "2026-08-15",
+      "aggiornato": "2026-08-16",
       "mazzi": 10,
       "byte": 29967,
-      "sha256": "78c0826ce83677af63e14d1fb397e8f65735f26d09c05574c72b8b3134e752cf"
+      "sha256": "e556faaf2e9fde91eedb7390e42bd8663f87127a68952b6a856136abd3708727"
     },
     {
       "nome": "historic.json",
       "formato": "Historic",
-      "aggiornato": "2026-08-15",
+      "aggiornato": "2026-08-16",
       "mazzi": 13,
-      "byte": 19370,
-      "sha256": "9e64e4c2094d74db40f37ce82b4598cf441e4f346b692a521739aaff2ad39fcf"
+      "byte": 21125,
+      "sha256": "99bae2f42afba7a6436eb146961d02ae4ef36a12a71777ff8f04a32b46f92414"
     },
     {
       "nome": "standard.json",
       "formato": "Standard",
-      "aggiornato": "2026-08-15",
+      "aggiornato": "2026-08-16",
       "mazzi": 26,
-      "byte": 35953,
-      "sha256": "8393f1304ec2bf5377ebc4f5a1a8d5d0ba4718a61f2f0fd77872692520198095"
+      "byte": 40328,
+      "sha256": "d4ca944c97441e6a42942a973e2d65b1a8186bfe883540c1570f23a73100516d"
     },
     {
       "nome": "timeless.json",
       "formato": "Timeless",
-      "aggiornato": "2026-08-15",
+      "aggiornato": "2026-08-16",
       "mazzi": 12,
-      "byte": 18216,
-      "sha256": "80b01ed5fd975bbb77a42a80e86764eeb895c76898b678a6e243c7b6ab456ccb"
+      "byte": 19670,
+      "sha256": "1fe94467d18766eae2efa6f813e8b235c72afd3db4f81ce07d2d78e1223ecb20"
     }
   ]
 }

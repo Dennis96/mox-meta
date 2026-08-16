@@ -1,9 +1,9 @@
 {
   "formato": "Timeless",
   "formato_client": "Timeless",
-  "aggiornato": "2026-08-15",
+  "aggiornato": "2026-08-16",
   "fonte_principale": "https://mtgaassistant.net/Meta/Timeless-BO1",
-  "nota": "Aggiornamento del 15/08/2026. Timeless non ruota e al momento usa una restricted list di quattro carte: Channel, Demonic Tutor, Necropotence e Tibalt's Trickery, massimo una copia complessiva tra main e sideboard. Sono state aggiunte Rakdos Reanimator e Sultai Control; entrambe rispettano i limiti. Wizards segnala che le strategie Entomb/Reanimate sono attualmente le piu' popolari e che i control sono uno dei loro principali contrappesi.",
+  "nota": "Aggiornamento del 15/08/2026. Timeless non ruota e al momento usa una restricted list di quattro carte: Channel, Demonic Tutor, Necropotence e Tibalt's Trickery, massimo una copia complessiva tra main e sideboard. Sono state aggiunte Rakdos Reanimator e Sultai Control; entrambe rispettano i limiti. Wizards segnala che le strategie Entomb/Reanimate sono attualmente le piu' popolari e che i control sono uno dei loro principali contrappesi. Tier list: Mox importa Tier 1/2/3 solo quando l'archetipo della lista corrisponde in modo chiaro a una voce della tier list MTGDecks indicata; le liste senza corrispondenza restano senza tier esterna e il Consigliere le mostra come Mox Tier 4 (non classificato), senza inventare valutazioni.",
   "mazzi": [
     {
       "id": "tml-rakdos-lurrus",
@@ -51,7 +51,11 @@
         "1 Lurrus of the Dream-Den"
       ],
       "modalita": "Bo1",
-      "vista_il": "2026-07-10"
+      "vista_il": "2026-07-10",
+      "tier": "Tier 3",
+      "tier_fonte": "https://mtgdecks.net/Timeless",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Rakdos Lurrus"
     },
     {
       "id": "tml-mono-black",
@@ -89,7 +93,11 @@
         "4 Mishra's Foundry"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Timeless",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Mono Black"
     },
     {
       "id": "tml-dimir-lurrus",
@@ -200,7 +208,11 @@
         "2 The Stone Brain",
         "2 Force of Vigor"
       ],
-      "modalita": "Bo3"
+      "modalita": "Bo3",
+      "tier": "Tier 3",
+      "tier_fonte": "https://mtgdecks.net/Timeless",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Abzan Lands"
     },
     {
       "id": "tml-mardu-lurrus",
@@ -254,7 +266,11 @@
         "4 Orcish Bowmasters",
         "1 Lurrus of the Dream-Den"
       ],
-      "modalita": "Bo3"
+      "modalita": "Bo3",
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Timeless",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Mardu Energy"
     },
     {
       "id": "tml-quattro-colori-breach",
@@ -404,7 +420,11 @@
         "1 Flooded Strand"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Timeless",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Merfolks"
     },
     {
       "id": "tml-izzet-affinita",
@@ -451,7 +471,11 @@
         "1 Steam Vents"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Timeless",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Affinity"
     },
     {
       "id": "tml-eldrazi",
@@ -508,12 +532,12 @@
       ],
       "facile": false,
       "data": "2026-08-15",
-      "fonte": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
+      "fonte": "costruita per Mox: l'archetipo e' citato nell'annuncio ban Wizards del 10/08/2026, la lista delle sessanta carte no",
       "winrate": null,
       "partite": null,
       "quota_meta": null,
       "record_singolo": null,
-      "perche": "Wizards indica Entomb/Reanimate come famiglia piu' popolare del Timeless attuale. Questa variante usa una sola copia di Demonic Tutor, rispettando la restricted list.",
+      "perche": "Wizards indica Entomb/Reanimate come famiglia piu' popolare del Timeless attuale. Questa variante usa una sola copia di Demonic Tutor, rispettando la restricted list. Archetipo citato in https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
       "lista": [
         "4 Ulamog, the Defiler",
         "4 Ardyn, the Usurper",
@@ -554,12 +578,12 @@
       ],
       "facile": false,
       "data": "2026-08-15",
-      "fonte": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
+      "fonte": "costruita per Mox: l'archetipo e' citato nell'annuncio ban Wizards del 10/08/2026, la lista delle sessanta carte no",
       "winrate": null,
       "partite": null,
       "quota_meta": null,
       "record_singolo": null,
-      "perche": "Controllo Sultai pensato per attaccare i Reanimator. Demonic Tutor e' presente in una sola copia; nessun'altra carta limitata supera il limite.",
+      "perche": "Controllo Sultai pensato per attaccare i Reanimator. Demonic Tutor e' presente in una sola copia; nessun'altra carta limitata supera il limite. Archetipo citato in https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
       "lista": [
         "4 Mana Drain",
         "4 Silent Extraction",

@@ -1,7 +1,7 @@
 {
   "formato": "Brawl",
   "formato_client": "Brawl",
-  "aggiornato": "2026-08-15",
+  "aggiornato": "2026-08-16",
   "fonte_principale": "https://mtgaassistant.net/Meta/Brawl",
   "nota": "Audit 15/08/2026: le 10 liste esistenti sono state ricontrollate contro la banned list Brawl ufficiale vigente, inclusi i ban del 29/06/2026 (Force of Will, Subtlety, Wash Away, Ugin's Labyrinth, Time Warp e Temporal Manipulation). Questo file mantiene intenzionalmente la rappresentazione legacy del formato client usata oggi da Mox: 59 carte nel main piu' il comandante separato. Non vengono aggiunte nuove liste finche' il mapping tra questa quota client e il Brawl pubblico da 100 carte non viene chiarito nel codice, per evitare di distribuire deck che Mox rifiuterebbe.",
   "mazzi": [

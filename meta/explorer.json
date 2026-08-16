@@ -1,9 +1,9 @@
 {
-  "formato": "Explorer",
-  "formato_client": "Explorer",
-  "aggiornato": "2026-08-15",
+  "formato": "Pioneer",
+  "formato_client": "Pioneer",
+  "aggiornato": "2026-08-16",
   "fonte_principale": "https://mtgaassistant.net/Meta/Explorer-BO1",
-  "nota": "Audit 15/08/2026: le 10 liste presenti restano giocabili. Nessuna nuova lista e' stata aggiunta in questo passaggio perche' il validatore Mox non gestisce ancora `allowedTitleIds`, usato da Arena per migliaia di carte Explorer legali fuori dai set che il client espone direttamente. Aggiungere archetipi che il programma marcherebbe falsamente come ruotati sarebbe peggio che mantenere una copertura piu' piccola. Il limite e' del validatore, non del formato.",
+  "nota": "Compatibilita': il file si chiama ancora explorer.json per non rompere gli aggiornamenti delle versioni precedenti di Mox, ma Arena ha rinominato Explorer in Pioneer nel maggio 2025. Il validatore attuale usa anche allowedTitleIds; la vecchia limitazione riportata nelle note del 15/08 non e' piu' valida. Le 10 liste esistenti sono mantenute finche' non viene eseguito un nuovo audit contro il database Arena corrente. Tier list: Mox importa Tier 1/2/3 solo quando l'archetipo della lista corrisponde in modo chiaro a una voce della tier list MTGDecks indicata; le liste senza corrispondenza restano senza tier esterna e il Consigliere le mostra come Mox Tier 4 (non classificato), senza inventare valutazioni.",
   "mazzi": [
     {
       "id": "exp-azorius-yorion",
@@ -68,7 +68,11 @@
         "1 Narset, Parter of Veils"
       ],
       "modalita": "Bo3",
-      "vista_il": "2026-07-30"
+      "vista_il": "2026-07-30",
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Pioneer",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Azorius Control"
     },
     {
       "id": "exp-azorius-tempo",
@@ -171,7 +175,11 @@
       ],
       "sideboard": [],
       "modalita": "Bo1",
-      "vista_il": "2026-06-25"
+      "vista_il": "2026-06-25",
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Pioneer",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Izzet Phoenix"
     },
     {
       "id": "exp-golgari",
@@ -227,7 +235,11 @@
       ],
       "sideboard": [],
       "modalita": "Bo1",
-      "vista_il": "2026-07-05"
+      "vista_il": "2026-07-05",
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Pioneer",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Golgari Midrange"
     },
     {
       "id": "exp-mono-white",
@@ -298,7 +310,11 @@
         "22 Snow-Covered Island"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "tier": "Tier 3",
+      "tier_fonte": "https://mtgdecks.net/Pioneer",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Mono Blue Spirits"
     },
     {
       "id": "exp-boros-terre",

@@ -1,9 +1,9 @@
 {
   "formato": "Alchemy",
   "formato_client": "Alchemy",
-  "aggiornato": "2026-08-15",
+  "aggiornato": "2026-08-16",
   "fonte_principale": "https://mtgaassistant.net/Meta/Alchemy-BO1",
-  "nota": "Aggiornamento del 15/08/2026. Alchemy ruota separatamente da Standard e usa anche carte digitali/ribilanciate. Le liste sono state ricontrollate contro la banned list Alchemy vigente. E' stata aggiunta una variante Temur X-Spells costruita sul nucleo Scalar Scholar / Ornate Imitations / Expansive Reapplication, archetipo citato direttamente da Wizards nell'annuncio B&R del 10/08/2026. Nessun valore di winrate viene inventato.",
+  "nota": "Aggiornamento del 15/08/2026. Alchemy ruota separatamente da Standard e usa anche carte digitali/ribilanciate. Le liste sono state ricontrollate contro la banned list Alchemy vigente. E' stata aggiunta una variante Temur X-Spells costruita sul nucleo Scalar Scholar / Ornate Imitations / Expansive Reapplication, archetipo citato direttamente da Wizards nell'annuncio B&R del 10/08/2026. Nessun valore di winrate viene inventato. Tier list: Mox importa Tier 1/2/3 solo quando l'archetipo della lista corrisponde in modo chiaro a una voce della tier list MTGDecks indicata; le liste senza corrispondenza restano senza tier esterna e il Consigliere le mostra come Mox Tier 4 (non classificato), senza inventare valutazioni.",
   "mazzi": [
     {
       "id": "alc-orzhov-vita",
@@ -129,7 +129,11 @@
         "4 Rockface Village"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Alchemy",
+      "tier_data": "2026-08-10",
+      "tier_archetipo": "Red Deck Wins"
     },
     {
       "id": "alc-mono-green",
@@ -417,12 +421,12 @@
       ],
       "facile": false,
       "data": "2026-08-15",
-      "fonte": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
+      "fonte": "costruita per Mox: l'archetipo e' citato nell'annuncio ban Wizards del 10/08/2026, la lista delle sessanta carte no",
       "winrate": null,
       "partite": null,
       "quota_meta": null,
       "record_singolo": null,
-      "perche": "Archetipo citato direttamente da Wizards dopo Alchemy: Strixhaven: Scalar Scholar con Ornate Imitations ed Expansive Reapplication. Lista Mox curata per BO1.",
+      "perche": "Archetipo citato direttamente da Wizards dopo Alchemy: Strixhaven: Scalar Scholar con Ornate Imitations ed Expansive Reapplication. Lista Mox curata per BO1. Archetipo citato in https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
       "lista": [
         "4 Scalar Scholar",
         "4 Paradigm Shifter",
