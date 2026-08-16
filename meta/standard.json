@@ -1,6 +1,6 @@
 {
   "formato": "Standard",
-  "aggiornato": "2026-08-16",
+  "aggiornato": "2026-08-17",
   "fonte_principale": "https://aetherhub.com/MTGA-Decks/Standard-BO1/",
   "nota": "Aggiornamento del 15/08/2026 con priorita' a Standard BO1. Le 16 liste gia' presenti nel repository sono state mantenute dopo un controllo contro la banned list vigente e sono state aggiunte 10 liste BO1 tracciabili, per un totale di 26 mazzi (17 BO1 e 9 BO3). Le liste nuove coprono strategie e combinazioni di colori diverse. Badgermole Cub, Gran-Gran, Stormchaser's Talent e le altre carte bandite sono escluse; Leyline of Resonance e' esclusa dai BO1. Nel 2026 non avviene una nuova rotazione Standard; per la legalita' dei set si usa l'elenco Standard ufficiale corrente. Nessun dato di tier o winrate viene inventato. Tier list: Mox importa Tier 1/2/3 solo quando l'archetipo della lista corrisponde in modo chiaro a una voce della tier list MTGDecks indicata; le liste senza corrispondenza restano senza tier esterna e il Consigliere le mostra come Mox Tier 4 (non classificato), senza inventare valutazioni.",
   "mazzi": [
@@ -41,9 +41,40 @@
       ],
       "sideboard": [],
       "modalita": "Bo1",
-      "tier": "Tier 2",
-      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
-      "tier_data": "2026-08-10",
+      "budget_policy": {
+        "core": [
+          "Ethereal Armor",
+          "Optimistic Scavenger",
+          "Sheltered by Ghosts"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Spellbook Vendor"
+            ],
+            "preferred": [
+              "Unassuming Sage"
+            ],
+            "max_replace": 4
+          },
+          {
+            "cards": [
+              "Origin of Spider-Man"
+            ],
+            "preferred": [
+              "Hopeful Vigil"
+            ],
+            "max_replace": 4
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      },
+      "tier": "Tier 3",
+      "tier_fonte": "https://mtgdecks.net/Standard",
+      "tier_data": "2026-08-16",
       "tier_archetipo": "Mono White Auras"
     },
     {
@@ -176,9 +207,9 @@
         "preserve_colors": true,
         "preserve_land_count": true
       },
-      "tier": "Tier 1",
-      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
-      "tier_data": "2026-08-10",
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Standard",
+      "tier_data": "2026-08-16",
       "tier_archetipo": "Mono-Red Aggro"
     },
     {
@@ -228,9 +259,9 @@
         "2 Erode",
         "1 Break the Spell"
       ],
-      "tier": "Tier 1",
-      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
-      "tier_data": "2026-08-10",
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Standard",
+      "tier_data": "2026-08-16",
       "tier_archetipo": "Mono White Lifegain"
     },
     {
@@ -351,11 +382,7 @@
         "1 Day of Judgment",
         "2 Voice of Victory",
         "1 Beza, the Bounding Spring"
-      ],
-      "tier": "Tier 1",
-      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
-      "tier_data": "2026-08-10",
-      "tier_archetipo": "Azorius Control"
+      ]
     },
     {
       "id": "naya-bo3",
@@ -461,8 +488,8 @@
         "3 Massacre Wurm"
       ],
       "tier": "Tier 2",
-      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
-      "tier_data": "2026-08-10",
+      "tier_fonte": "https://mtgdecks.net/Standard",
+      "tier_data": "2026-08-16",
       "tier_archetipo": "Mono Black Midrange"
     },
     {
@@ -569,11 +596,7 @@
         "2 Maelstrom Pulse",
         "2 Cruelclaw's Heist",
         "3 Surrak, Elusive Hunter"
-      ],
-      "tier": "Tier 2",
-      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
-      "tier_data": "2026-08-10",
-      "tier_archetipo": "Golgari Midrange"
+      ]
     },
     {
       "id": "orzhov-bo3",
@@ -689,6 +712,29 @@
       "facile": true,
       "data": "2026-08-04",
       "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Corpses of the Lost",
+          "Case of the Stashed Skeleton",
+          "United Battlefront",
+          "Sheltered by Ghosts"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Origin of Spider-Man"
+            ],
+            "preferred": [
+              "Hopeful Vigil"
+            ],
+            "max_replace": 4
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      },
       "fonte": "https://mtgaassistant.net/Meta/Standard-BO1/Deck/orzhov-1420707",
       "quota_meta": 0.0118,
       "record_singolo": [
@@ -729,6 +775,29 @@
       "facile": true,
       "data": "2026-08-05",
       "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Eluge, the Shoreless Sea",
+          "Hydro-Man, Fluid Felon",
+          "Sunderflock"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Three Steps Ahead"
+            ],
+            "preferred": [
+              "Phantom Interference",
+              "Spell Snare"
+            ],
+            "max_replace": 2
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      },
       "fonte": "https://mtgaassistant.net/Meta/Standard-BO1/Deck/mono-blue-1420610",
       "quota_meta": 0.0071,
       "record_singolo": [
@@ -769,6 +838,38 @@
       "facile": true,
       "data": "2026-08-05",
       "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Bloodletter of Aclazotz",
+          "Corpses of the Lost",
+          "Case of the Stashed Skeleton",
+          "Tinybones, the Pickpocket"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Unholy Annex"
+            ],
+            "preferred": [
+              "Derelict Attic // Widow's Walk"
+            ],
+            "max_replace": 4
+          },
+          {
+            "cards": [
+              "Gisa, the Hellraiser"
+            ],
+            "preferred": [
+              "Rictus Robber"
+            ],
+            "max_replace": 1
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      },
       "fonte": "https://mtgaassistant.net/Meta/Standard-BO1/Deck/mono-black-1420560",
       "quota_meta": 0.0118,
       "record_singolo": [
@@ -797,7 +898,11 @@
       ],
       "sideboard": [],
       "winrate": null,
-      "partite": null
+      "partite": null,
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Standard",
+      "tier_data": "2026-08-16",
+      "tier_archetipo": "Mono Black Aggro"
     },
     {
       "id": "boros-aggro-bo1",
@@ -813,6 +918,38 @@
       "facile": true,
       "data": "2026-08-10",
       "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Warleader's Call",
+          "Howlsquad Heavy",
+          "Voice of Victory"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Ojer Axonil, Deepest Might"
+            ],
+            "preferred": [
+              "Hawkeye, Young Avenger"
+            ],
+            "max_replace": 3
+          },
+          {
+            "cards": [
+              "Stadium Headliner"
+            ],
+            "preferred": [
+              "Heartfire Immolator",
+              "Blazing Bomb"
+            ],
+            "max_replace": 4
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      },
       "fonte": "https://mtgaassistant.net/Meta/Standard-BO1/Deck/boros-1417611",
       "quota_meta": 0.007,
       "record_singolo": [
@@ -881,9 +1018,32 @@
       ],
       "sideboard": [],
       "modalita": "Bo1",
-      "tier": "Tier 1",
-      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
-      "tier_data": "2026-08-10",
+      "budget_policy": {
+        "core": [
+          "Essence Channeler",
+          "Haliya, Guided by Light",
+          "Leyline of Hope"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Exemplar of Light"
+            ],
+            "preferred": [
+              "Vanguard Seraph",
+              "Angel of Finality"
+            ],
+            "max_replace": 2
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      },
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Standard",
+      "tier_data": "2026-08-16",
       "tier_archetipo": "Mono White Lifegain"
     },
     {
@@ -935,9 +1095,42 @@
       ],
       "sideboard": [],
       "modalita": "Bo1",
-      "tier": "Tier 1",
-      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
-      "tier_data": "2026-08-10",
+      "budget_policy": {
+        "core": [
+          "Aven Interrupter",
+          "High Noon",
+          "Voice of Victory",
+          "Avatar's Wrath"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Wan Shi Tong, Librarian"
+            ],
+            "preferred": [
+              "Floodpits Drowner",
+              "Strix Lookout"
+            ],
+            "max_replace": 3
+          },
+          {
+            "cards": [
+              "Aang, Swift Savior"
+            ],
+            "preferred": [
+              "Plumecreed Mentor"
+            ],
+            "max_replace": 3
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      },
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Standard",
+      "tier_data": "2026-08-16",
       "tier_archetipo": "Azorius Flash"
     },
     {
@@ -1050,7 +1243,39 @@
         "4 Castle Doom"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Armor Wars",
+          "Ravenous Robots",
+          "Pinnacle Emissary"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Krang, Master Mind"
+            ],
+            "preferred": [
+              "Gearseeker Serpent",
+              "Valkyrie Aerial Unit"
+            ],
+            "max_replace": 4
+          },
+          {
+            "cards": [
+              "Improvised Arsenal"
+            ],
+            "preferred": [
+              "Diamond Pick-Axe"
+            ],
+            "max_replace": 4
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      }
     },
     {
       "id": "jeskai-artifacts-bo1",
@@ -1099,9 +1324,32 @@
       ],
       "sideboard": [],
       "modalita": "Bo1",
-      "tier": "Tier 1",
-      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
-      "tier_data": "2026-08-10",
+      "budget_policy": {
+        "core": [
+          "Repurposing Bay",
+          "Simulacrum Synthesizer",
+          "Pinnacle Starcage"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Perilous Snare"
+            ],
+            "preferred": [
+              "White Auracite",
+              "Glass Casket"
+            ],
+            "max_replace": 4
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      },
+      "tier": "Tier 2",
+      "tier_fonte": "https://mtgdecks.net/Standard",
+      "tier_data": "2026-08-16",
       "tier_archetipo": "Jeskai Artifacts"
     },
     {
@@ -1138,7 +1386,51 @@
         "16 Forest"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Traveling Chocobo",
+          "Bristly Bill, Spine Sower"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Llanowar Elves"
+            ],
+            "preferred": [
+              "Gene Pollinator"
+            ],
+            "max_replace": 4
+          },
+          {
+            "cards": [
+              "Sazh Katzroy"
+            ],
+            "preferred": [
+              "Spineseeker Centipede",
+              "Outcaster Greenblade"
+            ],
+            "max_replace": 2
+          },
+          {
+            "cards": [
+              "Mossborn Hydra"
+            ],
+            "preferred": [
+              "Icecave Crasher"
+            ],
+            "max_replace": 4
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      },
+      "tier": "Tier 1",
+      "tier_fonte": "https://mtgdecks.net/Standard",
+      "tier_data": "2026-08-16",
+      "tier_archetipo": "Mono Green Landfall"
     },
     {
       "id": "izzet-spellementals-bo1",
@@ -1181,9 +1473,48 @@
       ],
       "sideboard": [],
       "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Sunderflock"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Colorstorm Stallion"
+            ],
+            "preferred": [
+              "Elemental Mascot",
+              "Spectacular Skywhale"
+            ],
+            "max_replace": 3
+          },
+          {
+            "cards": [
+              "Winternight Stories"
+            ],
+            "preferred": [
+              "Ancestral Reminiscence"
+            ],
+            "max_replace": 2
+          },
+          {
+            "cards": [
+              "Traumatic Critique"
+            ],
+            "preferred": [
+              "Slick Sequence"
+            ],
+            "max_replace": 2
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      },
       "tier": "Tier 1",
-      "tier_fonte": "https://mtgdecks.net/Standard/metagame%3Amtg-arena",
-      "tier_data": "2026-08-10",
+      "tier_fonte": "https://mtgdecks.net/Standard",
+      "tier_data": "2026-08-16",
       "tier_archetipo": "Izzet Spellementals"
     },
     {
@@ -1233,7 +1564,48 @@
         "3 Cavern of Souls"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Bringer of the Last Gift",
+          "Superior Spider-Man"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Overlord of the Balemurk"
+            ],
+            "preferred": [
+              "Vampire Soulcaller",
+              "Graveshifter"
+            ],
+            "max_replace": 4
+          },
+          {
+            "cards": [
+              "Terror of the Peaks"
+            ],
+            "preferred": [
+              "General Traag, Heart of Stone",
+              "Boilerbilges Ripper"
+            ],
+            "max_replace": 3
+          },
+          {
+            "cards": [
+              "Ardyn, the Usurper"
+            ],
+            "preferred": [
+              "Huskburster Swarm"
+            ],
+            "max_replace": 2
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      }
     },
     {
       "id": "dimir-control-bo1",
@@ -1355,7 +1727,40 @@
         "4 Fabled Passage"
       ],
       "sideboard": [],
-      "modalita": "Bo1"
+      "modalita": "Bo1",
+      "budget_policy": {
+        "core": [
+          "Dragonback Assault",
+          "Overlord of the Hauntwoods",
+          "Slagstorm"
+        ],
+        "slots": [
+          {
+            "cards": [
+              "Marang River Regent"
+            ],
+            "preferred": [
+              "Archive Dragon",
+              "Dirgur Island Dragon"
+            ],
+            "max_replace": 3
+          },
+          {
+            "cards": [
+              "Bloomvine Regent"
+            ],
+            "preferred": [
+              "Sagu Wildling",
+              "Disruptive Stormbrood"
+            ],
+            "max_replace": 3
+          }
+        ],
+        "max_changes": 4,
+        "min_similarity": 0.9,
+        "preserve_colors": true,
+        "preserve_land_count": true
+      }
     }
   ],
   "formato_client": "Standard"

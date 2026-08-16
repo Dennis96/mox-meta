@@ -45,10 +45,10 @@
     {
       "nome": "standard.json",
       "formato": "Standard",
-      "aggiornato": "2026-08-16",
+      "aggiornato": "2026-08-17",
       "mazzi": 26,
-      "byte": 40328,
-      "sha256": "d4ca944c97441e6a42942a973e2d65b1a8186bfe883540c1570f23a73100516d"
+      "byte": 49663,
+      "sha256": "be43ddd7123a88a1fffb88faaade8008a1203e45f26e56d6422662d57c810a69"
     },
     {
       "nome": "timeless.json",
