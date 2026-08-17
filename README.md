@@ -2,8 +2,8 @@
 
 Questo deposito contiene **soltanto le liste dei mazzi** che
 [Mox](https://github.com/Dennis96) usa per il consigliere. Niente codice,
-niente dati personali: 7 file per 91 mazzi in 7 formati,
-169 KB in tutto.
+niente dati personali: 7 file per 197 mazzi in 7 formati,
+411 KB in tutto.
 
 Serve a una cosa sola: **le liste invecchiano e il programma no**. Quando esce
 un set o arrivano delle carte bandite, Mox scarica da qui i file aggiornati
