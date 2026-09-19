@@ -1,9 +1,15 @@
 # mox-meta — le liste dei mazzi di Mox
 
-Questo deposito contiene **soltanto le liste dei mazzi** che
-[Mox](https://github.com/Dennis96) usa per il consigliere. Niente codice,
-niente dati personali: 7 file per 197 mazzi in 7 formati,
-411 KB in tutto.
+Questo repository e' un **artefatto generated-only**. Contiene le liste dei mazzi che
+[Mox](https://github.com/Dennis96) usa per il consigliere, il manifest di
+provenienza e il solo strumento di pubblicazione. Non contiene il client ne'
+dati personali.
+
+La sola fonte modificabile e' `Dennis96/mox-core`, cartella `meta/`. Non aprire
+PR che editano manualmente `meta/*.json` o `indice.json`: usare
+`tools/publish_from_mox_core.py` dopo la validazione nel repository sorgente.
+`manifest.json` registra commit sorgente, istante di generazione e hash degli
+artefatti senza cambiare lo schema dei JSON consumati dai client.
 
 Serve a una cosa sola: **le liste invecchiano e il programma no**. Quando esce
 un set o arrivano delle carte bandite, Mox scarica da qui i file aggiornati
@@ -26,6 +32,24 @@ per qualsiasi sito l'unica cosa che si vede e' l'indirizzo IP di chi scarica.
   SHA-256, per non scaricare quello che non e' cambiato;
 - `meta/*.json` — un file per formato: Standard, Alchemy, Pioneer, Historic,
   Timeless, Brawl e Historic Brawl.
+- `manifest.json` — provenienza generated-only e hash di tutti gli artefatti;
+- `tools/publish_from_mox_core.py` — procedura deterministica di pubblicazione
+  e verifica.
+
+Esempio riproducibile, con SHA e istante UTC espliciti:
+
+```powershell
+python tools/publish_from_mox_core.py `
+  --source-dir C:\percorso\mox-core\meta `
+  --source-commit <sha-completo-mox-core> `
+  --generated-at 2026-09-19T00:00:00Z
+
+python tools/publish_from_mox_core.py `
+  --source-dir C:\percorso\mox-core\meta `
+  --source-commit <sha-completo-mox-core> `
+  --generated-at 2026-09-19T00:00:00Z `
+  --check
+```
 
 Ogni mazzo porta **la fonte e la data** da cui e' stato preso. Dove un dato non
 esiste c'e' scritto `n.d.`: in questo progetto non si inventano numeri.

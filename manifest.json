@@ -1,0 +1,41 @@
+{
+  "versione": 1,
+  "generated_only": true,
+  "source_repository": "https://github.com/Dennis96/mox-core",
+  "source_commit": "ba73c364130443370fe934c90f2a6ac237b57777",
+  "generated_at": "2026-09-19T20:15:00Z",
+  "artifacts": {
+    "meta/alchemy.json": {
+      "bytes": 30076,
+      "sha256": "b7921c39ef718ec71c64c95046a3c8d4f7e23bc949f8a315a9314fb25258759b"
+    },
+    "meta/brawl.json": {
+      "bytes": 96522,
+      "sha256": "4e1becf3ca890660bd4a42db1efa23cf14e81cd8f97f8bd15821fedc3a653192"
+    },
+    "meta/explorer.json": {
+      "bytes": 38044,
+      "sha256": "d6944671e22a09d1ac6805f3068161900defa25fae55956b0d48c3f501950e26"
+    },
+    "meta/historic-brawl.json": {
+      "bytes": 125056,
+      "sha256": "85dacd618e159a0bfb73296169209963a71541625bb4ec0a8574500a5b032d6f"
+    },
+    "meta/historic.json": {
+      "bytes": 38990,
+      "sha256": "d86c7ab6f1b3a8afeb93e1413aaee5e5ed701f1f9db2fe6a982269dd05a6bd5d"
+    },
+    "meta/standard.json": {
+      "bytes": 56421,
+      "sha256": "cba0e1b90dc23a6afcc13516b6bb87da5158e7e013819a73744f773594a5fb6a"
+    },
+    "meta/timeless.json": {
+      "bytes": 37850,
+      "sha256": "239e48bd6fb2dd4f1296152d7ca2dd442b3e6747bc60a16345c4ab2f5e3d2bb5"
+    },
+    "indice.json": {
+      "bytes": 1678,
+      "sha256": "3606dd263219e05f03b711e4d0a0743f989c3588a74daf2c4f7e2f87316ef87a"
+    }
+  }
+}
