@@ -1,6 +1,6 @@
 {
   "versione": 1,
-  "generato": "2026-08-17",
+  "generato": "2026-09-19",
   "file": [
     {
       "nome": "alchemy.json",
@@ -45,10 +45,10 @@
     {
       "nome": "standard.json",
       "formato": "Standard",
-      "aggiornato": "2026-08-17",
-      "mazzi": 26,
-      "byte": 54593,
-      "sha256": "a7d6de99f7529ee1f7266e10f97467c84602aa86551d68f579bd2374df040ea0"
+      "aggiornato": "2026-09-19",
+      "mazzi": 27,
+      "byte": 56421,
+      "sha256": "cba0e1b90dc23a6afcc13516b6bb87da5158e7e013819a73744f773594a5fb6a"
     },
     {
       "nome": "timeless.json",

@@ -1,8 +1,8 @@
 {
   "formato": "Standard",
-  "aggiornato": "2026-08-17",
-  "fonte_principale": "https://aetherhub.com/MTGA-Decks/Standard-BO1/",
-  "nota": "Aggiornamento del 15/08/2026 con priorita' a Standard BO1. Le 16 liste gia' presenti nel repository sono state mantenute dopo un controllo contro la banned list vigente e sono state aggiunte 10 liste BO1 tracciabili, per un totale di 26 mazzi (17 BO1 e 9 BO3). Le liste nuove coprono strategie e combinazioni di colori diverse. Badgermole Cub, Gran-Gran, Stormchaser's Talent e le altre carte bandite sono escluse; Leyline of Resonance e' esclusa dai BO1. Nel 2026 non avviene una nuova rotazione Standard; per la legalita' dei set si usa l'elenco Standard ufficiale corrente. Nessun dato di tier o winrate viene inventato. Tier list: Mox importa Tier 1/2/3 solo quando l'archetipo della lista corrisponde in modo chiaro a una voce della tier list MTGDecks indicata; le liste senza corrispondenza restano senza tier esterna e il Consigliere le mostra come Mox Tier 4 (non classificato), senza inventare valutazioni.",
+  "aggiornato": "2026-09-19",
+  "fonte_principale": "https://mtgaassistant.net/Meta/Standard-Events",
+  "nota": "Refresh completo con cutoff 19/09/2026: 27 liste di riferimento (18 BO1 e 9 BO3) verificate contro il censimento Standard accessibile e la banned list ufficiale. Badgermole Cub, Gran-Gran, Stormchaser's Talent e le altre carte bandite restano escluse; Leyline of Resonance resta esclusa dai BO1. I tier esistenti mantengono la propria data storica e non vanno interpretati come rilevazione corrente: la fonte tier indicata blocca il runner e non e' stata consultata per questo refresh. Gli archetipi correnti privi di una lista riproducibile ottenibile nel rispetto di robots.txt e termini d'uso non vengono inventati o copiati. Nessun dato di tier, quota o winrate viene derivato dalla telemetria MOX. Decisioni, fonti e limiti sono registrati in passaggi/meta/FULL-STANDARD-CATALOG-REFRESH-2026-09-19.md.",
   "mazzi": [
     {
       "id": "mono-white-ladder",
@@ -1948,6 +1948,69 @@
         "preserve_colors": true,
         "preserve_land_count": true
       }
+    },
+    {
+      "id": "thor-capstone-bo1",
+      "nome": "Thor Capstone",
+      "archetipo": "Ramp rosso con Thor e Capstone",
+      "archetipo_id": "thor-capstone",
+      "variante": null,
+      "strategia": "ramp",
+      "colori": [
+        "R"
+      ],
+      "facile": false,
+      "data": "2026-08-22",
+      "fonte": "https://mtgdecks.net/Standard/big-red-std-decklist-by-al-carrer-3011436",
+      "winrate": null,
+      "partite": null,
+      "quota_meta": null,
+      "record_singolo": null,
+      "perche": "Tablet of Discovery e Death to Our Enemies accelerano Improvisation Capstone; Thor, Avengers Disassembled e Ugin chiudono la partita. La famiglia e' distinta da Jeskai Lessons per il piano rosso di ramp e minacce pesanti.",
+      "lista": [
+        "1 Fin Fang Foom",
+        "2 Magmatic Hellkite",
+        "1 The Legend of Roku",
+        "1 The Vision",
+        "1 Thor, God of Thunder",
+        "1 The Irencrag",
+        "3 Firdoch Core",
+        "4 Tablet of Discovery",
+        "1 Hedron Archive",
+        "4 Burst Lightning",
+        "2 Sear",
+        "3 Price of Freedom",
+        "3 Avengers Disassembled",
+        "1 Improvisation Capstone",
+        "4 Death to Our Enemies",
+        "2 Breaching Dragonstorm",
+        "2 Ugin, Eye of the Storms",
+        "13 Mountain",
+        "3 Demolition Field",
+        "2 Sunken Citadel",
+        "1 Fountainport",
+        "3 Cori Mountain Monastery",
+        "1 Petrified Hamlet",
+        "1 Castle Doom"
+      ],
+      "sideboard": [
+        "3 Ghost Vacuum",
+        "2 Impractical Joke",
+        "2 Abrade",
+        "1 Price of Freedom",
+        "2 Return the Favor",
+        "1 Sear",
+        "2 Chandra, Spark Hunter",
+        "2 Sunspine Lynx"
+      ],
+      "modalita": "Bo1",
+      "core": [
+        "Thor, God of Thunder",
+        "Tablet of Discovery",
+        "Death to Our Enemies",
+        "Improvisation Capstone",
+        "Avengers Disassembled"
+      ]
     }
   ],
   "formato_client": "Standard"
