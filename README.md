@@ -51,6 +51,11 @@ python tools/publish_from_mox_core.py `
   --check
 ```
 
+Le due run si fermano con esito diverso da zero anche quando in `meta/` resta un
+catalogo che la sorgente non ha piu': un artefatto generated-only non deve
+sopravvivere alla propria sorgente. Lo strumento lo segnala e la rimozione la
+decide chi pubblica.
+
 Ogni mazzo porta **la fonte e la data** da cui e' stato preso. Dove un dato non
 esiste c'e' scritto `n.d.`: in questo progetto non si inventano numeri.
 

@@ -104,6 +104,14 @@ def main() -> int:
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_bytes(expected)
 
+    # Un catalogo che la sorgente non ha piu' non sparisce da solo: senza questo
+    # controllo resterebbe pubblicato, fuori da `indice.json` e dal manifest, in
+    # un repository che si dichiara generated-only. Qui viene soltanto
+    # segnalato: la rimozione la decide chi pubblica, non lo strumento.
+    for orfano in sorted(META.glob("*.json")):
+        if orfano not in outputs:
+            mismatches.append(f"{orfano.relative_to(ROOT).as_posix()} (non e' piu' nella sorgente)")
+
     if mismatches:
         print("mox-meta non coincide con l'output atteso:", file=sys.stderr)
         for name in mismatches:
