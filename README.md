@@ -13,7 +13,7 @@ artefatti senza cambiare lo schema dei JSON consumati dai client.
 
 Serve a una cosa sola: **le liste invecchiano e il programma no**. Quando esce
 un set o arrivano delle carte bandite, Mox scarica da qui i file aggiornati
-invece di far reinstallare tutto il pacchetto da 54 MB.
+invece di far reinstallare tutto il pacchetto con runtime.
 
 ## Come lo usa Mox
 
