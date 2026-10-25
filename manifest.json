@@ -2,8 +2,8 @@
   "versione": 1,
   "generated_only": true,
   "source_repository": "https://github.com/Dennis96/mox-core",
-  "source_commit": "ba73c364130443370fe934c90f2a6ac237b57777",
-  "generated_at": "2026-09-19T20:15:00Z",
+  "source_commit": "c4cb227f7950a1c04cd6b9f8bc03d63a48e68f24",
+  "generated_at": "2026-10-25T22:40:43Z",
   "artifacts": {
     "meta/alchemy.json": {
       "bytes": 30076,
@@ -26,8 +26,8 @@
       "sha256": "d86c7ab6f1b3a8afeb93e1413aaee5e5ed701f1f9db2fe6a982269dd05a6bd5d"
     },
     "meta/standard.json": {
-      "bytes": 56421,
-      "sha256": "cba0e1b90dc23a6afcc13516b6bb87da5158e7e013819a73744f773594a5fb6a"
+      "bytes": 72292,
+      "sha256": "01af3c0188001bc7df9e1df42202dc03bc70c2f2057dbf5d4784815893158461"
     },
     "meta/timeless.json": {
       "bytes": 37850,
@@ -35,7 +35,7 @@
     },
     "indice.json": {
       "bytes": 1678,
-      "sha256": "3606dd263219e05f03b711e4d0a0743f989c3588a74daf2c4f7e2f87316ef87a"
+      "sha256": "ce2400e006d90e6f92f227894b757aa9e2487aec825886c74a756df2690a8d39"
     }
   }
 }
